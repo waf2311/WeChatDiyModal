@@ -1,0 +1,14 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "自定义Modal弹窗",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "dark",
+    "onReachBottomDistance": 100
+  },
+  "usingComponents": {
+    "diy-modal": "/component/modal/index"
+  }
+}

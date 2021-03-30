@@ -1,0 +1,15 @@
+<view class="index-btn" bindtap="demo1">带标题</view>
+<view class="index-btn" bindtap="demo2">不带标题</view>
+<view class="index-btn" bindtap="demo3">带提示语</view>
+<view class="index-btn" bindtap="demo4">不显示取消按钮</view>
+<view class="index-btn" bindtap="demo5">按钮文字</view>
+<view class="index-btn" bindtap="demo6">联系按钮</view>
+<view class="index-btn" bindtap="demo7">完整版</view>
+
+<diy-modal id="diy-modal"></diy-modal>
+
+<!-- <diy-modal id="diy-modal">
+  <view class="input">
+    <input type="text" placeholder="请输入2-8位昵称" maxlength="8" value="{{tempNickname}}" bindinput="inputNickname"></input>
+  </view>
+</diy-modal> -->

@@ -1,0 +1,14 @@
+<view class="mask {{maskAnimate?'ani':''}}" wx:if="{{showModal}}">
+  <view class="diy-modal">
+    <view class="title" wx:if="{{title != ''}}">{{title}}</view>
+    <view class="content" wx:if="{{content != ''}}"><text>{{content}}</text></view>
+    <view class="tip" wx:if="{{tip != ''}}"><text>{{tip}}</text></view>
+    <slot></slot>
+    <view class="btns">
+      <view class="btn" bindtap="_cancel" wx:if="{{showCancel}}">{{cancelText}}</view>
+      <view class="btn yellow" wx:if="{{confirmType == 'contact'}}">{{confirmText}}<button open-type="contact"></button>
+      </view>
+      <view class="btn yellow" bindtap="_confirm" wx:else>{{confirmText}}</view>
+    </view>
+  </view>
+</view>
