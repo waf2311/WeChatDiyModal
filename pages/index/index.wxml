@@ -6,9 +6,9 @@
 <view class="index-btn" bindtap="demo6">联系按钮</view>
 <view class="index-btn" bindtap="demo7">完整版</view>
 
-<diy-modal id="diy-modal"></diy-modal>
+<diy-modal class="diy-modal"></diy-modal>
 
-<!-- <diy-modal id="diy-modal">
+<!-- <diy-modal class="diy-modal">
   <view class="input">
     <input type="text" placeholder="请输入2-8位昵称" maxlength="8" value="{{tempNickname}}" bindinput="inputNickname"></input>
   </view>

@@ -36,7 +36,7 @@
 4. page.wxml 中：
 
    ```html
-   <diy-modal id="diy-modal"></diy-modal>
+   <diy-modal class="diy-modal"></diy-modal>
    ```
 
 5. page.js 中：

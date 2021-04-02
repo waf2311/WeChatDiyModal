@@ -6,13 +6,13 @@ let diyModal = {};
 
 diyModal.show = function (options) {
   let context = getContext();
-  let component = context.selectComponent('#diy-modal');
+  let component = context.selectComponent('.diy-modal');
   component.showModal(options);
 };
 
 diyModal.hide = function () {
   let context = getContext();
-  let component = context.selectComponent('#diy-modal');
+  let component = context.selectComponent('.diy-modal');
   component.hideModal();
 };
 
