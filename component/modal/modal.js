@@ -2,9 +2,18 @@ function getContext() {
   let pages = getCurrentPages();
   return pages[pages.length - 1];
 }
-let DiyModal = function (options) {
+let diyModal = {};
+
+diyModal.show = function (options) {
   let context = getContext();
-  let diymodal = context.selectComponent('#diy-modal');
-  diymodal.showModal(options);
+  let component = context.selectComponent('#diy-modal');
+  component.showModal(options);
 };
-export default DiyModal;
+
+diyModal.hide = function () {
+  let context = getContext();
+  let component = context.selectComponent('#diy-modal');
+  component.hideModal();
+};
+
+export default diyModal;

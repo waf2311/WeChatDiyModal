@@ -42,6 +42,21 @@ Component({
         }
       );
     },
+    // 外部隐藏调用
+    hideModal() {
+      this.setData(
+        {
+          maskAnimate: false,
+        },
+        () => {
+          setTimeout(() => {
+            this.setData({
+              showModal: false,
+            });
+          }, 400);
+        }
+      );
+    },
     // 点击确定
     _confirm() {
       this.setData(

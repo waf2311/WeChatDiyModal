@@ -1,5 +1,7 @@
 {
-  "pages": ["pages/index/index"],
+  "pages": [
+    "pages/index/index"
+  ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "自定义Modal弹窗",
@@ -10,5 +12,6 @@
   },
   "usingComponents": {
     "diy-modal": "/component/modal/index"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

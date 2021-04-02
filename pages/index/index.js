@@ -6,50 +6,54 @@ Page({
   data: {},
 
   demo1() {
-    app.diyModal({
+    app.diyModal.show({
       title: '我是标题',
       content: '我是主要内容\n还支持反斜杠n手动换行',
     });
   },
   demo2() {
-    app.diyModal({
+    app.diyModal.show({
       content: '我是主要内容\n还支持反斜杠n手动换行',
     });
   },
   demo3() {
-    app.diyModal({
+    app.diyModal.show({
       content: '我是主要内容\n还支持反斜杠n手动换行',
       tip: '我是小提示语',
     });
   },
   demo4() {
-    app.diyModal({
+    app.diyModal.show({
       content: '我是主要内容\n还支持反斜杠n手动换行',
       showCancel: false,
     });
   },
   demo5() {
-    app.diyModal({
+    app.diyModal.show({
       content: '我是主要内容\n还支持反斜杠n手动换行',
       cancelText: '不再弹出',
       confirmText: '朕知道了',
     });
   },
   demo6() {
-    app.diyModal({
+    app.diyModal.show({
       content: '点击唤醒小程序自带联系客服会话窗口',
       confirmType: 'contact',
       confirmText: '联系客服',
     });
   },
   demo7() {
-    app.diyModal({
+    app.diyModal.show({
       title: '修改昵称',
       content: '我是主要内容\n还支持反斜杠n手动换行',
       tip: '我是小提示语',
       cancelText: '不再弹出',
       confirmText: '朕知道了',
     });
+  },
+  // 主动隐藏弹窗
+  demo8() {
+    app.diyModal.hide();
   },
 
   /**

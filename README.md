@@ -43,7 +43,7 @@
 
    ```javascript
    const app = getApp();
-   app.diyModal({
+   app.diyModal.show({
      title: '标题',
      content: '内容',
      tip: '内容下灰色的提示小字',
@@ -57,4 +57,7 @@
        //点击取消
      },
    });
+   
+   // 主动隐藏弹窗
+   app.diyModal.hide()
    ```
