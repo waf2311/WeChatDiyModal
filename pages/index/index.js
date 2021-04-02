@@ -44,7 +44,7 @@ Page({
   },
   demo7() {
     app.diyModal.show({
-      title: '修改昵称',
+      title: '温馨提示',
       content: '我是主要内容\n还支持反斜杠n手动换行',
       tip: '我是小提示语',
       cancelText: '不再弹出',
