@@ -51,9 +51,20 @@ Page({
       confirmText: '朕知道了',
     });
   },
+
   // 主动隐藏弹窗
   demo8() {
     app.diyModal.hide();
+  },
+
+  // 开启遮罩关闭
+  demo9() {
+    app.diyModal.show({
+      content: '我是主要内容\n还支持反斜杠n手动换行',
+      cancelText: '不再弹出',
+      confirmText: '朕知道了',
+      shadeClose: true,
+    });
   },
 
   /**

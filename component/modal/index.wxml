@@ -1,4 +1,4 @@
-<view class="mask {{maskAnimate?'ani':''}}" wx:if="{{showModal}}">
+<view class="mask {{maskAnimate?'ani':''}}" wx:if="{{showModal}}" bindtap="_clickMask">
   <view class="diy-modal">
     <view class="title" wx:if="{{title != ''}}">{{title}}</view>
     <view class="content" wx:if="{{content != ''}}"><text>{{content}}</text></view>

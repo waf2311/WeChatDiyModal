@@ -4,6 +4,7 @@
 <view class="index-btn" bindtap="demo4">不显示取消按钮</view>
 <view class="index-btn" bindtap="demo5">按钮文字</view>
 <view class="index-btn" bindtap="demo6">联系按钮</view>
+<view class="index-btn" bindtap="demo9">遮罩点击关闭</view>
 <view class="index-btn" bindtap="demo7">完整版</view>
 
 <diy-modal class="diy-modal"></diy-modal>
