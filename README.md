@@ -50,6 +50,7 @@
      showCancel: false,
      cancelText: '取消',
      confirmText: '确定',
+     shadeClose: true,
      confirm(e) {
        //点击确定
      },
